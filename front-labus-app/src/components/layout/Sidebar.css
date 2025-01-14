@@ -1,0 +1,52 @@
+.sidebar-container {
+    display: flex;
+    flex-direction: column;
+    height: auto;
+    width: 400px;
+    background-color:#3572EF; /* Ngjyra e sfondit */
+    color: #fff; /* Ngjyra e tekstit */
+    border-radius: 0px 20px 20px 0px;
+}
+.navbar{
+    background-color: #3572EF;
+}
+.nav-link {
+    padding: 10px 20px; /* Hapësira përreth tekstit në link */
+    color: white; /* Ngjyra e tekstit */
+    text-decoration: none; /* Fshehja e linjave nëntekst */
+    display: block; /* Linku fillon në një rresht të ri */
+    font-size: x-large;
+}
+.nav-link:hover {
+    background-color: #A7E6FF; /* Ngjyra e sfondit në hover */
+    color: white;
+}
+.nav-link:active{
+    color: #fff;
+   
+}
+.navbar-brand {
+    padding: 15px 20px; /* Hapësira përreth tekstit në navbar-brand */
+    color:white; /* Ngjyra e tekstit */
+    text-decoration: none; /* Fshehja e linjave nëntekst */
+    font-weight: bold; /* Trashëgohet tekstit */
+    font-size: 20px; /* Trashëgohet tekstit */
+}
+
+.notification-badge {
+    color: #fff; /* Ngjyra e tekstit të numrave të ndryshimeve */
+    padding: 3px 6px; /* Hapësira përreth numrave të ndryshimeve */
+    border-radius: 50%; /* Forma e numrave të ndryshimeve */
+    margin-left: 5px; /* Hapësira mes numrit dhe tekstit */
+}
+
+@media (max-width: 400px) {
+    .sidebar-container {
+        height: 80vh; 
+    }
+}
+h2{
+    
+   
+    text-align: center;
+}
